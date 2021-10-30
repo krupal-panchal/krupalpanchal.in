@@ -1,0 +1,5 @@
+=========================
+15-8-2021
+=========================
+- Integrated Contact Form with Google Script
+Ex. URL: https://github.com/dwyl/learn-to-send-email-via-google-script-html-no-server
