@@ -1,0 +1,20 @@
+/* Responsive CSS */
+
+@media only screen and (max-width: 420px) {
+    #hero .social-links a {
+        margin-right: 15px;
+    }
+    #hero p {
+        margin-top: 15px;
+    }
+    #hero .social-links {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .contact .info .address, .contact .info .phone {
+        margin-top: 20px;
+    }
+      
+}

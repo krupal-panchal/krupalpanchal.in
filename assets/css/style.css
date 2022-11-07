@@ -19,7 +19,7 @@ a {
 }
 
 a:hover {
-  color: #067ded;
+  color: #815B5B;
   text-decoration: none;
 }
 
@@ -91,19 +91,19 @@ h1, h2, h3, h4, h5, h6 {
 
 @-webkit-keyframes animate-preloader {
   0% {
-    transform: rotate(0deg);
+	transform: rotate(0deg);
   }
   100% {
-    transform: rotate(360deg);
+	transform: rotate(360deg);
   }
 }
 
 @keyframes animate-preloader {
   0% {
-    transform: rotate(0deg);
+	transform: rotate(0deg);
   }
   100% {
-    transform: rotate(360deg);
+	transform: rotate(360deg);
   }
 }
 
@@ -112,7 +112,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
-    transition-delay: 0 !important;
+	transition-delay: 0 !important;
   }
 }
 
@@ -132,16 +132,16 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 992px) {
   #header {
-    width: 300px;
-    background: #fff;
-    border-right: 1px solid #e6e9ec;
-    left: -300px;
+	width: 300px;
+	background: #fff;
+	border-right: 1px solid #e6e9ec;
+	left: -300px;
   }
 }
 
 @media (min-width: 992px) {
   #main {
-    margin-left: 100px;
+	margin-left: 100px;
   }
 }
 
@@ -194,11 +194,11 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (min-width: 992px) {
   .nav-menu a, .nav-menu a:focus {
-    width: 56px;
+	width: 56px;
   }
   .nav-menu a span, .nav-menu a:focus span {
-    display: none;
-    color: #fff;
+	display: none;
+	color: #fff;
   }
 }
 
@@ -269,7 +269,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (min-width: 992px) {
   #hero {
-    padding-left: 160px;
+	padding-left: 160px;
   }
 }
 
@@ -322,16 +322,16 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 992px) {
   #hero {
-    text-align: center;
+	text-align: center;
   }
   #hero h1 {
-    font-size: 32px;
-    line-height: 36px;
+	font-size: 32px;
+	line-height: 36px;
   }
   #hero p {
-    margin-top: 10px;
-    font-size: 20px;
-    line-height: 24px;
+	margin-top: 10px;
+	font-size: 20px;
+	line-height: 24px;
   }
 }
 
@@ -356,6 +356,7 @@ section {
   padding-bottom: 20px;
   position: relative;
   color: #181818;
+  letter-spacing: 3px;
 }
 
 .section-title h2::before {
@@ -488,7 +489,7 @@ section {
 }
 
 .skills .progress-bar-wrap {
-  background: #f2f3f5;
+  background: #fff;
 }
 
 .skills .progress-bar {
@@ -986,7 +987,7 @@ section {
 
 @media (min-width: 992px) {
   .testimonials .testimonial-item p {
-    width: 80%;
+	width: 80%;
   }
 }
 
@@ -1023,9 +1024,13 @@ section {
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 15px;
   color: #728394;
 }
+
+/* .contact .info .address, .contact .info .phone {
+  margin-top: 20px;
+} */
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
   background: #594545;
@@ -1112,19 +1117,19 @@ section {
 
 @-webkit-keyframes animate-loading {
   0% {
-    transform: rotate(0deg);
+	transform: rotate(0deg);
   }
   100% {
-    transform: rotate(360deg);
+	transform: rotate(360deg);
   }
 }
 
 @keyframes animate-loading {
   0% {
-    transform: rotate(0deg);
+	transform: rotate(0deg);
   }
   100% {
-    transform: rotate(360deg);
+	transform: rotate(360deg);
   }
 }
 
@@ -1190,6 +1195,13 @@ section {
 
 /*Custom CSS*/
 .profile-pic {
-  border-radius: 50%;
-  box-shadow: 5px 10px 10px #888888;
+	border-radius: 50%;
+    border: 10px solid #fff;
+}
+
+/*--------------------------------------------------------------
+# custpm
+--------------------------------------------------------------*/
+.light-bg { 
+	background: #F5EFE6;
 }
