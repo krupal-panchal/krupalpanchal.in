@@ -1,8 +1,11 @@
 /* Responsive CSS */
 
 @media only screen and (max-width: 420px) {
-    #hero .social-links a {
+    #hero .social-links a:not(:last-child) {
         margin-right: 15px;
+    }
+    #hero .social-links a:last-child {
+        margin-right: 0;
     }
     #hero p {
         margin-top: 15px;
