@@ -518,7 +518,7 @@ section {
 }
 
 .resume .resume-item h4 {
-  line-height: 18px;
+  line-height: 20px;
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
@@ -1025,7 +1025,7 @@ section {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 15px;
-  color: #728394;
+  color: #594545;
 }
 
 /* .contact .info .address, .contact .info .phone {
@@ -1137,7 +1137,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #f7f8f9;
+  background: #F5EFE6;
   color: #181818;
   font-size: 14px;
   text-align: center;
