@@ -13,6 +13,10 @@
     #hero .social-links {
         margin-top: 20px;
     }
+
+    .tech-logos .logo-item {
+        margin-bottom: 0;
+    }
 }
 
 @media only screen and (max-width: 991px) {
