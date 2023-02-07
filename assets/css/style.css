@@ -1251,8 +1251,24 @@ section {
 }
 
 /*--------------------------------------------------------------
-# custpm
+# custom
 --------------------------------------------------------------*/
 .light-bg {
     background: #F5EFE6;
+}
+
+/*--------------------------------------------------------------
+# Sidebar
+--------------------------------------------------------------*/
+
+body::-webkit-scrollbar {
+    width: 0.75em;
+}
+
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px #F5EFE6;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #594545;
 }
