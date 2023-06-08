@@ -280,12 +280,10 @@ class LimitFlames {
 }
 
 function cursor() {
-    //ポインタがない場合は終了
     if (!matchMedia('(pointer: fine)').matches) {
         return;
     }
 
-    //対象が存在しない場合は終了
     const targetPointer = document.getElementById('js-cursor');
     if (!targetPointer) {
         return;
@@ -293,9 +291,7 @@ function cursor() {
 
     const targetPointerClassList = targetPointer.classList;
 
-    //ポインタ設定
     let anime;
-    //ポインタ表示
     const posi = {
         x: 0,
         y: 0
@@ -323,7 +319,6 @@ function cursor() {
         if (isStopAnime) {
             return;
         }
-        //60fpsにフレームレート制限
         if (limitFlames.isLimitFlames(timestamp)) {
             startAnime();
             return;
@@ -391,7 +386,6 @@ function cursor() {
     }
     focusLink();
 
-    //iframeの上では動作しないので非表示
     function deActiveIframe() {
         const iframeItems = document.querySelectorAll('iframe');
         if (iframeItems.length === 0) {
