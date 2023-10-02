@@ -428,6 +428,7 @@ section {
     margin-bottom: 20px;
     display: flex;
     align-items: center;
+    line-height: 30px;
 }
 
 .about .content ul strong {
@@ -1147,6 +1148,13 @@ section {
 
 .contact #php-email-form button[type="submit"]:hover {
     background: #815B5B;
+}
+
+.cont-p p {
+    font-size: 20px !important;
+    font-family: monospace;
+    margin-bottom: 30px !important;
+    padding: 0 !important;
 }
 
 @-webkit-keyframes animate-loading {
