@@ -1185,7 +1185,7 @@ section {
     color: #181818;
     font-size: 14px;
     text-align: center;
-    padding: 30px 0;
+    padding: 40px 0 0;
 }
 
 #footer h3 {
@@ -1230,7 +1230,12 @@ section {
 }
 
 #footer .copyright {
-    margin: 0 0 5px 0;
+    background: #060709;
+    color: #fff;
+    padding: 20px 0;
+}
+#footer .copyright a {
+    color: #fff;
 }
 
 #footer .credits {
@@ -1242,6 +1247,15 @@ section {
     border-radius: 50%;
     border: 10px solid #fff;
 }
+
+.abd_theme {
+    max-width: 500px;
+    margin: 0 auto;
+}
+.abd_theme img {
+    width: 100%;
+}
+
 
 /*--------------------------------------------------------------
 # Technologies
