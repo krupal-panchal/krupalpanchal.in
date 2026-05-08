@@ -1,1 +1,1 @@
-This is my personal Website.
+This is Krupal Panchal Website.

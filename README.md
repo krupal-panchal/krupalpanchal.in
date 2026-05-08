@@ -1,1 +1,1 @@
-<h1>This is my Personal Website.</h1>
+<h1>This is Krupal Panchal Website.</h1>
